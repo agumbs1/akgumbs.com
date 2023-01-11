@@ -1,0 +1,62 @@
+
+body {
+    padding-right: 12%;
+    padding-left: 12%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background: radial-gradient(#1d642e, #1c84aa);
+    background-size: 200% 400%;
+    animation: gradient 50s ease infinite;
+    height: 100vh;
+}
+
+h1 {
+    color: black;
+    text-align: left;
+    font-family: Garamond, Helvetica, sans-serif;
+    font-size: 60px;
+    line-height: 0.75;
+    padding-bottom: 40px;
+}
+
+.square {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    border-radius: 80px;
+    background-color: black;
+    color: rgb(188, 188, 188);
+    font-family: Garamond, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    line-height: 250px;
+}
+
+.square:hover {
+    background-color: rgb(188, 188, 188);
+    color: black;
+}
+
+
+.centered-div {
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.topnav {
+    float: right;
+}
+
+a {
+    font-family: Garamond, Helvetica, sans-serif;
+    color: rgb(188, 188, 188);
+    font-size: 22.5px;
+    margin: 17.5px;
+    text-decoration: none;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
