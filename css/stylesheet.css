@@ -1,16 +1,35 @@
 
-body {
+.home {
     padding-right: 12%;
     padding-left: 12%;
     padding-top: 10px;
     padding-bottom: 30px;
     background: radial-gradient(#1d642e, #1c84aa);
-    background-size: 200% 400%;
+    background-size: 50% 200%;
     animation: gradient 50s ease infinite;
     height: 100vh;
 }
 
-h1 {
+.about {
+    background: radial-gradient(#1d642e, #1c84aa);
+    background-size: 50% 200%;
+    animation: gradient 50s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 25% 75%;
+    }
+    50% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 25% 75%;
+    }
+}
+
+.logo {
     color: black;
     text-align: left;
     font-family: Garamond, Helvetica, sans-serif;
@@ -21,15 +40,19 @@ h1 {
 
 .square {
     display: inline-block;
-    height: 250px;
-    width: 250px;
-    border-radius: 80px;
+    position: relative;
+    width: 17.5%;
+    height: 0;
+    padding-bottom: 11.5%;
+    padding-top: 6%;
+
+    
+    border-radius: 40%;
     background-color: black;
     color: rgb(188, 188, 188);
     font-family: Garamond, Helvetica, sans-serif;
     font-size: 35px;
     text-align: center;
-    line-height: 250px;
 }
 
 .square:hover {
@@ -39,8 +62,8 @@ h1 {
 
 
 .centered-div {
-    padding-right: 4%;
-    padding-left: 4%;
+    padding-top: 15vh;
+    text-align: center;
 }
 
 .topnav {
@@ -59,4 +82,9 @@ a {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
