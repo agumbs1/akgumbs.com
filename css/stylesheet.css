@@ -1,20 +1,11 @@
 
-.home {
-    padding-right: 12%;
-    padding-left: 12%;
+.container {
     padding-top: 10px;
-    padding-bottom: 30px;
     background: radial-gradient(#1d642e, #1c84aa);
     background-size: 50% 200%;
     animation: gradient 50s ease infinite;
     height: 100vh;
-}
-
-.about {
-    background: radial-gradient(#1d642e, #1c84aa);
-    background-size: 50% 200%;
-    animation: gradient 50s ease infinite;
-    height: 100vh;
+    background: white;
 }
 
 @keyframes gradient {
@@ -43,15 +34,14 @@
     position: relative;
     width: 17.5%;
     height: 0;
-    padding-bottom: 11.5%;
-    padding-top: 6%;
+    padding-bottom: 11%;
+    padding-top: 6.5%;
 
-    
     border-radius: 40%;
     background-color: black;
     color: rgb(188, 188, 188);
     font-family: Garamond, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 27.5px;
     text-align: center;
 }
 
@@ -70,6 +60,106 @@
     float: right;
 }
 
+.profile-pic {
+    width: 30%;
+    float: right;
+    border-radius: 20px;
+}
+
+.about-container {
+    display: inline-block;
+}
+
+.about-body {
+    font-family: Garamond, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+
+    padding-top: 20px;
+    padding-left: 5%;
+    width: 65%;
+    float: left;
+}
+
+.project-box-container {
+    padding: 10px 7.5vw 0px 7.5vw;
+}
+
+.project-1 {
+    display: inline-block;
+    position: relative;
+    width: 49.75%;
+    height: 0;
+    padding-bottom: 30%;
+    border-style: none solid solid none;
+    border-width: thin;
+
+    background: black;
+    font-family: Garamond, Helvetica, sans-serif;
+    font-size: 40px;
+    color:rgb(188, 188, 188);
+    text-align: center;
+    border-radius: 50px 0 0 0;
+}
+
+.project-2 {
+    display: inline-block;
+    position: relative;
+    width: 49.75%;
+    height: 0;
+    padding-bottom: 30%;
+    border-style: none none solid solid;
+    border-width: thin;
+
+    background: black;
+    font-family: Garamond, Helvetica, sans-serif;
+    font-size: 40px;
+    color:rgb(188, 188, 188);
+    text-align: center;
+    border-radius: 0 50px 0 0;
+}
+
+.project-3 {
+    display: inline-block;
+    position: relative;
+    width: 49.75%;
+    height: 0;
+    padding-bottom: 30%;
+    border-style: solid solid none none;
+    border-width: thin;
+
+    background: black;
+    font-family: Garamond, Helvetica, sans-serif;
+    font-size: 40px;
+    color:rgb(188, 188, 188);
+    text-align: center;
+    border-radius: 0 0 0 50px;
+}
+
+.project-4 {
+    display: inline-block;
+    position: relative;
+    width: 49.75%;
+    height: 0;
+    padding-bottom: 30%;
+    border-style: solid none none solid;
+    border-width: thin;
+
+    background: black;
+    font-family: Garamond, Helvetica, sans-serif;
+    font-size: 40px;
+    color:rgb(188, 188, 188);
+    text-align: center;
+    border-radius: 0 0 50px 0;
+}
+
+h1 {
+    font-family: Garamond, Helvetica, sans-serif;
+    color: black;
+    font-size: 40px;
+    padding-top: 20px;
+
+}
 a {
     font-family: Garamond, Helvetica, sans-serif;
     color: rgb(188, 188, 188);
@@ -78,13 +168,17 @@ a {
     text-decoration: none;
 }
 
+
 @keyframes gradient {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
 
-
+body {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
 html {
     scroll-behavior: smooth;
 }
