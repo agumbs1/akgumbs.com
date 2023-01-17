@@ -1,11 +1,10 @@
-
 .container {
-    padding-top: 10px;
     background: radial-gradient(#1d642e, #1c84aa);
     background-size: 50% 200%;
     animation: gradient 50s ease infinite;
-    height: 100vh;
     background: white;
+    font-size: 0px;
+    padding-bottom: 15vh;
 }
 
 @keyframes gradient {
@@ -27,6 +26,7 @@
     font-size: 60px;
     line-height: 0.75;
     padding-bottom: 40px;
+    padding-top: 10px;
 }
 
 .square {
@@ -49,7 +49,6 @@
     background-color: rgb(188, 188, 188);
     color: black;
 }
-
 
 .centered-div {
     padding-top: 15vh;
@@ -81,76 +80,77 @@
     float: left;
 }
 
-.project-box-container {
-    padding: 10px 7.5vw 0px 7.5vw;
+.project-box-hoops {
+    width: 100%;
+    height: 35vh;
+    background-image: url("C:\\sites\\sitev2\\media\\kobe.gif");
+    background-color: black;
+    border-radius: 50px 50px 50px 50px;
 }
 
-.project-1 {
-    display: inline-block;
-    position: relative;
-    width: 49.75%;
-    height: 0;
-    padding-bottom: 30%;
-    border-style: none solid solid none;
-    border-width: thin;
-
-    background: black;
-    font-family: Garamond, Helvetica, sans-serif;
-    font-size: 40px;
-    color:rgb(188, 188, 188);
-    text-align: center;
-    border-radius: 50px 0 0 0;
+.project-box-wm {
+    width: 100%;
+    height: 35vh;
+    background-image: url("C:\\sites\\sitev2\\media\\wm.gif");
+    background-color: black;
+    border-radius: 50px 50px 50px 50px;
 }
 
-.project-2 {
-    display: inline-block;
-    position: relative;
-    width: 49.75%;
-    height: 0;
-    padding-bottom: 30%;
-    border-style: none none solid solid;
-    border-width: thin;
-
-    background: black;
-    font-family: Garamond, Helvetica, sans-serif;
-    font-size: 40px;
-    color:rgb(188, 188, 188);
-    text-align: center;
-    border-radius: 0 50px 0 0;
+.project-box-cad {
+    width: 100%;
+    height: 35vh;
+    background-image: url("C:\\sites\\sitev2\\media\\cad.gif");
+    background-color: black;
+    border-radius: 50px 50px 50px 50px;
 }
 
-.project-3 {
-    display: inline-block;
-    position: relative;
-    width: 49.75%;
-    height: 0;
-    padding-bottom: 30%;
-    border-style: solid solid none none;
-    border-width: thin;
-
-    background: black;
-    font-family: Garamond, Helvetica, sans-serif;
-    font-size: 40px;
-    color:rgb(188, 188, 188);
-    text-align: center;
-    border-radius: 0 0 0 50px;
+.project-box-website {
+    width: 100%;
+    height: 35vh;
+    background-image: url("C:\\sites\\sitev2\\media\\website.gif");
+    background-color: black;
+    border-radius: 50px 50px 50px 50px;
 }
 
-.project-4 {
-    display: inline-block;
-    position: relative;
-    width: 49.75%;
-    height: 0;
-    padding-bottom: 30%;
-    border-style: solid none none solid;
-    border-width: thin;
+.project-text {
+    background:rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 30vh;
+    border-radius: 50px 50px 50px 50px;
 
-    background: black;
+    color: white;
     font-family: Garamond, Helvetica, sans-serif;
-    font-size: 40px;
-    color:rgb(188, 188, 188);
+    font-size: 17.5px;
     text-align: center;
-    border-radius: 0 0 50px 0;
+    padding-top: 5vh;   
+}
+
+.ig-logo {
+    width: 7.5vw;
+    float: left;
+    padding-top: 5vw;
+    padding-left: 10vw;
+}
+
+.email {
+    display: inline-block;
+    width: 17.5vw;
+    height: 17.5vw;
+}
+
+.email:hover {
+    display: inline-block;
+    width: 17.5vw;
+    height: 17.5vw;
+    background: black;
+    border-radius: 20px;
+}
+
+.linkedin-logo {
+    width: 7.5vw;
+    float: right;
+    padding-top: 5vw;
+    padding-right: 10vw;
 }
 
 h1 {
@@ -160,6 +160,7 @@ h1 {
     padding-top: 20px;
 
 }
+
 a {
     font-family: Garamond, Helvetica, sans-serif;
     color: rgb(188, 188, 188);
@@ -167,7 +168,6 @@ a {
     margin: 17.5px;
     text-decoration: none;
 }
-
 
 @keyframes gradient {
     0% { background-position: 0% 50%; }
@@ -179,6 +179,7 @@ body {
     padding-left: 15vw;
     padding-right: 15vw;
 }
+
 html {
     scroll-behavior: smooth;
 }
