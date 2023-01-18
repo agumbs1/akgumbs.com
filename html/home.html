@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="C:\sites\sitev2\css\stylesheet.css"
+        <link rel="stylesheet" media="screen and (min-width: 770px)" href="C:\sites\sitev2\css\stylesheet.css">
+        <link rel="stylesheet" media="screen and (max-width)" href="C:\sites\sitev2\css\stylesheet-mobile.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    
     <body>
         <div class="container" id="home">
            <div class="logo">
@@ -14,31 +18,37 @@
             <div class="centered-div">       
                 <a href=#about>
                     <div class="square">
-                        About.
+                        About.<br>
+                        <p class="arrow">&#9660;</p>
                     </div>
                 </a>            
                 <a href=#projects>    
                     <div class="square">
-                    Projects.
-                    </div>
-                </a>
-                <a href="C:\sites\sitev2\media\GumbsResume.pdf" target="_blank" rel="noopener noreferrer">
-                    <div class="square">
-                        Resume.
+                    Projects.<br>
+                    <p class="arrow">&#9660;&#9660;</p>
                     </div>
                 </a>
                 <a href=#contact>
                     <div class="square">
-                        Contact.
+                        Contact.<br>
+                        <p class="arrow">&#9660;&#9660;&#9660;&#9660;</p>
+                    </div>
+                </a>
+                <a href="C:\sites\sitev2\media\GumbsResume.pdf" target="_blank" rel="noopener noreferrer">
+                    <div class="square">
+                        Resume.<br>
+                        <p class="arrow">&hookrightarrow;</p>
                     </div>
                 </a>
             </div>
         </div>
         <div class="container" id="about"> 
             <hr>
-            <h1>I am...</h1>
+            <h1>About.</h1>
             <div class="about-container">
                 <div class="about-body">
+                    <b>I am...</b>
+                    <br><br>
                     a senior mechanical engineering major at University of Maryland, Baltimore County.
                     <br><br><br>
                     <b>interested in</b> basketball, soccer, music, and clothing.
@@ -57,6 +67,7 @@
             <div>
                 <div class="project-box-hoops">
                     <p class="project-text">
+                        <br><br>
                         <b>@THIRTYPIECE</b>&ensp;&ensp;(2021)
                         <br><br><br>
                         NBA highlight Twitter bot with automated video compilation, editing, and publishing.
@@ -66,6 +77,7 @@
                 </div>
                 <div class="project-box-wm">
                     <p class="project-text">
+                        <br><br>
                         <b>Walmart ACO</b>&ensp;&ensp;(2020)
                         <br><br><br>
                         Autocheckout program for Walmart's online database that can check out in 3-5 seconds after product is stocked.
@@ -75,6 +87,7 @@
                 </div>
                 <div class="project-box-cad">
                     <p class="project-text">
+                        <br><br>
                         <b>CAD Design Project</b>&ensp;&ensp;(2021)
                         <br><br><br>
                         Worked in a group to create and design a toy for young students with cerebral palsy, using CAD software.
@@ -84,6 +97,7 @@
                 </div>
                 <div class="project-box-website">
                     <p class="project-text">
+                        <br><br>
                         <b>Gumbs Website</b>&ensp;&ensp;(2023)
                         <br><br><br>
                         Created this website from scratch.
@@ -96,15 +110,17 @@
         <div class="container" id="contact">
             <hr>
             <h1>Contact.</h1>
-                <div class="centered-div">
-                    <img class="ig-logo" src="C:\sites\sitev2\media\ig.png">
-                    <div class="email">
-                        Copy my email.
-                        <img class="email" src ="C:\sites\sitev2\media\gmail.png">
-                    </div>
-                    <img class="linkedin-logo" src="C:\sites\sitev2\media\linkedin.png">
+                <div class="contact-container">
+                    <a href="https://www.instagram.com/_gumbs/" class ="ig" target="_blank" rel="noopener noreferrer">
+                        Instagram &hookrightarrow;
+                    </a>
+                    <a class="email">
+                        agumbs1@umbc.edu
+                    </a>
+                    <a href="https://www.linkedin.com/in/albertgumbs/" class="linkedin" target="_blank" rel="noopener noreferrer">
+                        LinkedIn &hookrightarrow;
+                    </a>
                 </div>
         </div>
-            
     </body>
 </html>

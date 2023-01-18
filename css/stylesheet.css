@@ -1,32 +1,15 @@
 .container {
-    background: radial-gradient(#1d642e, #1c84aa);
-    background-size: 50% 200%;
-    animation: gradient 50s ease infinite;
-    background: white;
     font-size: 0px;
-    padding-bottom: 15vh;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 25% 75%;
-    }
-    50% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 25% 75%;
-    }
+    padding-bottom: 100px;
 }
 
 .logo {
     color: black;
     text-align: left;
-    font-family: Garamond, Helvetica, sans-serif;
     font-size: 60px;
-    line-height: 0.75;
-    padding-bottom: 40px;
-    padding-top: 10px;
+    line-height: 0.9;
+    padding-bottom: 75px;
+    padding-top: 30px;
 }
 
 .square {
@@ -37,30 +20,29 @@
     padding-bottom: 11%;
     padding-top: 6.5%;
 
-    border-radius: 40%;
+    border-radius: 30%;
     background-color: black;
-    color: rgb(188, 188, 188);
-    font-family: Garamond, Helvetica, sans-serif;
-    font-size: 27.5px;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
     text-align: center;
 }
-
 .square:hover {
     background-color: rgb(188, 188, 188);
     color: black;
 }
 
-.centered-div {
-    padding-top: 15vh;
-    text-align: center;
+.arrow {
+    font-size: 40%;
 }
 
-.topnav {
-    float: right;
+
+.centered-div {
+    text-align: center;
+    min-height: 10vh;
 }
 
 .profile-pic {
-    width: 30%;
+    width: 45%;
     float: right;
     border-radius: 20px;
 }
@@ -70,27 +52,28 @@
 }
 
 .about-body {
-    font-family: Garamond, Helvetica, sans-serif;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
 
     padding-top: 20px;
     padding-left: 5%;
-    width: 65%;
+    margin-right: 5%;
+    width: 40%;
     float: left;
 }
 
 .project-box-hoops {
     width: 100%;
-    height: 35vh;
+    height: 225px;
     background-image: url("C:\\sites\\sitev2\\media\\kobe.gif");
     background-color: black;
     border-radius: 50px 50px 50px 50px;
+    background-position: center center;
 }
 
 .project-box-wm {
     width: 100%;
-    height: 35vh;
+    height: 225px;
     background-image: url("C:\\sites\\sitev2\\media\\wm.gif");
     background-color: black;
     border-radius: 50px 50px 50px 50px;
@@ -98,63 +81,95 @@
 
 .project-box-cad {
     width: 100%;
-    height: 35vh;
+    height: 225px;
     background-image: url("C:\\sites\\sitev2\\media\\cad.gif");
     background-color: black;
     border-radius: 50px 50px 50px 50px;
+    background-position: center center;
 }
 
 .project-box-website {
     width: 100%;
-    height: 35vh;
+    height: 225px;
     background-image: url("C:\\sites\\sitev2\\media\\website.gif");
     background-color: black;
     border-radius: 50px 50px 50px 50px;
 }
 
 .project-text {
-    background:rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 30vh;
+    background:rgba(0, 0, 0, 0.55);
+    width: 90%;
+    height: 100%;
     border-radius: 50px 50px 50px 50px;
+    padding-left: 5%;
+    padding-right: 5%;
 
     color: white;
-    font-family: Garamond, Helvetica, sans-serif;
     font-size: 17.5px;
     text-align: center;
-    padding-top: 5vh;   
 }
 
-.ig-logo {
-    width: 7.5vw;
-    float: left;
-    padding-top: 5vw;
-    padding-left: 10vw;
+.contact-container {
+    width: 75%;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 75px;
+    line-height: 175px;
+    font-size: 0px;
+}
+
+.ig {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    margin: 0px;
+
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px 0 0 50px;
+}
+.ig:hover {
+    opacity: 0.8;
+    text-decoration: underline;
 }
 
 .email {
     display: inline-block;
-    width: 17.5vw;
-    height: 17.5vw;
-}
+    width: 40%;
+    height: 100%;
+    margin: 0px;
 
-.email:hover {
-    display: inline-block;
-    width: 17.5vw;
-    height: 17.5vw;
     background: black;
-    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
 
-.linkedin-logo {
-    width: 7.5vw;
-    float: right;
-    padding-top: 5vw;
-    padding-right: 10vw;
+.linkedin {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    margin: 0px;
+
+    background: rgb(0, 119, 181);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0 50px 50px 0;
+}
+.linkedin:hover {
+    opacity: 0.8;
+    text-decoration: underline;
 }
 
 h1 {
-    font-family: Garamond, Helvetica, sans-serif;
     color: black;
     font-size: 40px;
     padding-top: 20px;
@@ -162,24 +177,18 @@ h1 {
 }
 
 a {
-    font-family: Garamond, Helvetica, sans-serif;
     color: rgb(188, 188, 188);
     font-size: 22.5px;
     margin: 17.5px;
     text-decoration: none;
 }
 
-@keyframes gradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
 body {
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 html {
     scroll-behavior: smooth;
+    font-family: "Merriweather", serif;
 }
