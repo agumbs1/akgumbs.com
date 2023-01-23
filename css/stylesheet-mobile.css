@@ -65,7 +65,7 @@
 
 .project-box-hoops {
     width: 100%;
-    background-image: url("C:\\sites\\sitev2\\media\\kobe.gif");
+    background-image: url("kobe.gif");
     background-size: 80%;
     background-color: black;
     border-radius: 50px;
@@ -75,7 +75,7 @@
 .project-box-wm {
     width: 100%;
     height: auto;
-    background-image: url("C:\\sites\\sitev2\\media\\wm.gif");
+    background-image: url("wm.gif");
     background-size: 70%;
     background-color: black;
     border-radius: 50px;
@@ -84,7 +84,7 @@
 .project-box-cad {
     width: 100%;
     height: auto;
-    background-image: url("C:\\sites\\sitev2\\media\\cad.gif");
+    background-image: url("cad.gif");
     background-size: 70%;
     background-color: black;
     border-radius: 50px;
