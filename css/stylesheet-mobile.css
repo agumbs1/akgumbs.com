@@ -1,0 +1,192 @@
+.container {
+    font-size: 0px;
+    padding-bottom: 100px;
+}
+
+.logo {
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    line-height: 0.85;
+    padding-bottom: 20vw;
+    padding-top: 30px;
+}
+
+.square {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    height: 0;
+    padding-bottom: 11%;
+    padding-top: 6.5%;
+
+    border-radius: 5%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    margin: 10% 5% 5% 5%;
+    text-decoration: none;
+}
+.square:hover {
+    background-color: rgb(188, 188, 188);
+    color: black;
+}
+
+.arrow {
+    display: none;
+}
+
+.centered-div {
+    text-align: center;
+    min-height: 10vh;
+    padding-bottom: 10vh;
+}
+
+.profile-pic {
+    display: none;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.about-container {
+    text-align: center;
+}
+
+.about-body {
+    color: black;
+    font-size: 20px;
+
+    padding-top: 20px;
+    padding-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+.project-box-hoops {
+    width: 100%;
+    background-image: url("C:\\sites\\sitev2\\media\\kobe.gif");
+    background-size: 80%;
+    background-color: black;
+    border-radius: 50px;
+    background-position: center center;
+}
+
+.project-box-wm {
+    width: 100%;
+    height: auto;
+    background-image: url("C:\\sites\\sitev2\\media\\wm.gif");
+    background-size: 70%;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.project-box-cad {
+    width: 100%;
+    height: auto;
+    background-image: url("C:\\sites\\sitev2\\media\\cad.gif");
+    background-size: 70%;
+    background-color: black;
+    border-radius: 50px;
+    background-position: center center;
+}
+
+.project-box-website {
+    width: 100%;
+    height: auto;
+    background-image: url("C:\\sites\\sitev2\\media\\website.gif");
+    background-size: 70%;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.project-text {
+    background:rgba(0, 0, 0, 0.6);
+    width: 90%;
+    height: 100%;
+    border-radius: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 35px;
+
+    color: white;
+    font-size: 17.5px;
+    text-align: center;
+}
+
+.contact-container {
+    width: 100%;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 75px;
+    line-height: 175px;
+    font-size: 0px;
+}
+
+.ig {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    margin: 0px;
+
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    border-radius: 50px 0 0 50px;
+}
+.ig:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.email {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    margin: 0px;
+
+    background: black;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+}
+
+.linkedin {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    margin: 0px;
+
+    background: rgb(0, 119, 181);
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    border-radius: 0 50px 50px 0;
+}
+.linkedin:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-image: linear-gradient(135deg, #DBE6F6 0vw, #c5a09a 60vw, #DBE6F6 120vw, #dcb5af 180vw, #DBE6F6 240vw);
+    font-family: "Merriweather", serif;
+}
