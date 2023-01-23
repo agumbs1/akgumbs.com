@@ -13,6 +13,6 @@ jobs:
       with:
         server: ftp.akgumbs.com
         port: 21
-        username: ${{ secrets.username }}
+        username: ${{ github@akgumbs.com }}
         password: ${{ secrets.password }}
         dry-run: true
