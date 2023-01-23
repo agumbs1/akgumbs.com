@@ -14,3 +14,4 @@ jobs:
         server: ftp.akgumbs.com
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
+        dry-run: true
