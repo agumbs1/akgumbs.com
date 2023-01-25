@@ -11,8 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: ftp://akgumbs.com
-        port: 21
+        server: ftp.akgumbs.com
         username: github@akgumbs.com
-        password: ${{ secrets.password }}
+        password: ${{ secrets.PASSWORD }}
         dry-run: true
